@@ -8,7 +8,12 @@ class emp{
 	c++;
 	}
 	void show() {
-		System.out.println("Comapany name="+cname+"\n ID:"+id+"\n Total emp="+c);
+	    int x;
+		System.out.println("\n ID:"+id);
+	}
+	static void print() {
+		int a=2;
+		System.out.println("Comapany name="+cname+"\n Total emp="+c);
 	}
 }
 
@@ -22,9 +27,11 @@ public class StaticDataMember {
 		e1.set(101);
 		e2.set(102);
 		e3.set(103);
+		emp.print();//calls static method
 		e1.show();
 		e2.show();
 		e3.show();
+		
 		
 	}
 
