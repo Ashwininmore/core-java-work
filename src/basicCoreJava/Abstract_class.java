@@ -10,7 +10,7 @@ abstract class  factorial{
 }
 public class Abstract_class extends factorial{
 	
-//	@Override
+	@Override
 	void find() {
 		int f=1;
 		for(int i=n;i>=1;i--) {
