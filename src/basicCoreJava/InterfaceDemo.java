@@ -33,7 +33,4 @@ public class InterfaceDemo implements circle{
 		circle.print2();
 
 	}
-
-	
-
 }
